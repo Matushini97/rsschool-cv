@@ -16,7 +16,7 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 * Git
 * VScode
 ### **Code example:**
-Example of the function that request circle radius and return circumference and area of the circle:
+Example of the function that request circle radius and return circumference and area of the circle:/
 ```from math import pi
 def get_circle(radius):
     return 2 *pi * radius, pi * radius ** 2
@@ -26,6 +26,7 @@ print(length, square)
 ```
 ### **Courses:**
 * "Python generation: Python for begginers" (https://stepik.org)
+
 ### **Languages:**
 * Russian - Native
 * English - Intermidiate/Upper-intermidiate
