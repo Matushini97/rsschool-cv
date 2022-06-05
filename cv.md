@@ -6,7 +6,7 @@
 **Telegram:** @Matushin\
 [GitHub](https://github.com/Matushini97)
 ### **About me:**
-I've started my way in development with educational platform https://stepik.org. I've finished "Python generation: Python for begginers" course there. During learning I realized that programming is attractive and intresting for me.
+I've started my way in development with educational platform [stepik.org](https://stepik.org). I've finished "Python generation: Python for begginers" course there. During learning I realized that programming is attractive and intresting for me.
 
 Then I came across RSSchool and decided to try Web Development.
 
