@@ -27,6 +27,6 @@ print(length, square)
 ```
 ## **Courses:**
 * "Python generation: Python for begginers" ([stepik.org](https://stepik.org))
-## **Languages:**
+## __Languages:__
 * Russian - Native
 * English - Intermidiate/Upper-intermidiate
