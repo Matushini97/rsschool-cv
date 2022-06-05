@@ -15,3 +15,18 @@ Then I came across RSSchool and decided to try Web Development.
 
 I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
 ***
+### **Skills and Proficiency:**
+* Python(begginer LVL)
+* Git
+* VScode
+***
+### **Code example:**
+Example of the function that request circle radius and return circumference and area of the circle:
+```
+from math import pi
+def get_circle(radius):
+    return 2 *pi * radius, pi * radius ** 2
+r = float(input())
+length, square = get_circle(r)
+print(length, square)
+```
