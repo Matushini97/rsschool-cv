@@ -30,3 +30,10 @@ r = float(input())
 length, square = get_circle(r)
 print(length, square)
 ```
+***
+### **Courses:**
+* "Python generation: Python for begginers" (https://stepik.org)
+***
+### **Languages:**
+* Russian - Native
+* English - Intermidiate/Upper-intermidiate
