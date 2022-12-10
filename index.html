@@ -1,1 +1,157 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>cv</title>
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">
+                            Summary
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code">
+                            Code
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">
+                            Education
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#english">
+                            English
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section id="#profile" class="section section-profile">
+                <img class="section-profile-logo" src="./assets/photo/cv-photo.jpg" alt="profile photo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Ilya Matsiushyn</h1>
+                    <hr>
+                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        Hrodno, Belarus
+                    </li>
+                    <li class="section-item contacts-item">
+                        Email: <a href="mailto:matushin.97@gmail.com" title="email">matushin.97@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github: <a href="https://github.com/Matushini97" title="github">Matushini97</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Telegram: <a href="https://t.me/Matushini" title="github">@Matushini</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">Ilya#7742</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I've started my way in development with educational platform [stepik.org](https://stepik.org). I've finished "Python generation: Python for begginers" course there. During learning I realized that programming is attractive and intresting for me.</p>
+                    <p>Then I came across RSSchool and decided to try Web Development.</p>
+                    <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.</p>
+
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                    Web-development:<span> HTML5, CSS3, JavaScript</span>
+                    </li>
+                    <li class="section-item">
+                        Version control:<span> GIT, Github</span>
+                    </li>
+                    <li class="section-item">
+                        Graphics:<span> Figma</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>
+                    from math import pi
+
+                    def get_circle(radius):
+                        return 2 *pi * radius, pi * radius ** 2
+
+                    r = float(input())
+                    length, square = get_circle(r)
+                    print(length, square)</code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Stepik.org<span> - Python for beginers</span>
+                    </li>
+
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://matushini97.github.io/product-preview-card-component-main/">Product preview card component</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Belarus National Technical University</p>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/Matushini97" class="github nav-link">Matushini97</a>
+            </div>
+
+            <a href="https://rs.school/js/" class="rss"></a>
+            </div>
+    </footer>
+</body>
+</html>
