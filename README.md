@@ -1,1 +1,1 @@
-https://Matushini97.github.io/rsschool-cv-html/
+https://Matushini97.github.io/rsschool-cv/
